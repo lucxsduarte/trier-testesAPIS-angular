@@ -1,0 +1,12 @@
+<div>
+    <div>
+        <img src="../../../../../assets/img/viacep.png.pagespeed.ce.I80LiA6qpr.png" alt="">
+        <h1>Consulta de CEP</h1>
+        <label for="cep">CEP: </label>
+        <input type="text" id="cep" [(ngModel)]="cep"/>
+        <br><br>
+        <button (click)="buscarEndereco()">Procurar</button>
+    </div>
+    <br><br>
+    <app-tabela [endereco]="endereco"></app-tabela>
+</div>

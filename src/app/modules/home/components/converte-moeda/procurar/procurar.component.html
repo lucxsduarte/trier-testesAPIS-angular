@@ -1,0 +1,9 @@
+<div>
+    <h1>Conversor de valores</h1>
+    <label for="valor">Digite o valor em R$:</label>
+    <input type="number" name="valor" id="valor" [(ngModel)]="valorBRL">
+    <br><br>
+    <button (click)="converter()">Procurar</button>
+    <br><br>
+    <app-valor [valores]="valores"></app-valor>
+</div>

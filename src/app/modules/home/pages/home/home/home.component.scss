@@ -1,0 +1,27 @@
+.boxForm {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    padding: 10px;
+    margin: none;
+    background-color: #111;
+    color: #f1f1f1;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.boxProcurar {
+    display: flex;
+    justify-content: center;
+}
+
+.procurar {
+    padding: 10px;
+    margin: none;
+    background-color: #111;
+    color: #f1f1f1;
+    border-radius: 15px;
+    width: 50%;
+}
